@@ -1,0 +1,29 @@
+# Environment - chứa thông tin DB, API key
+.env
+
+# Logs (nếu sau này có)
+*.log
+/logs/
+
+# Cache / Session (nếu sau này có)
+/cache/
+/sessions/
+/tmp/
+
+# Composer (nếu sau này thêm package)
+/vendor/
+composer.lock
+
+# Uploads do user tạo ra (ảnh đại diện, v.v.)
+/assets/uploads/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# File ảnh test không cần thiết
+đki.jpg
